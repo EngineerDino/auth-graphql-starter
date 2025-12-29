@@ -31,7 +31,7 @@ class App extends Component {
              {this.props.children}
 
       {this.state.isVisible && (
-      <div id="toast-container">
+      <div id="toast-container row">
          <div className={`toast rounded ${snackBarBackground} `}> {this.state.message} </div>
          </div>
       )}
