@@ -35,12 +35,14 @@ class Header extends Component {
     }
     render() {
         return (
-        <nav>
-            <div className="nav-wrapper">
-                <a href="#" className="brand-logo left">Bump!</a>
-                {this.renderButtons()}
-              </div>
-        </nav>
+        <div className="row">
+            <nav>
+                <div className="nav-wrapper">
+                    <a href="#" className="brand-logo left">Bump!</a>
+                    {this.renderButtons()}
+                  </div>
+            </nav>
+        </div>
         )
     }
 }

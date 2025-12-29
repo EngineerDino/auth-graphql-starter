@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { graphql } from 'react-apollo';
 import { hashHistory } from 'react-router';
+import SongList from './SongList';
 
 class Dashboard extends Component {
 
     render() {
             return (
-        <div>Welcome to the dashboard</div>
+        <SongList />
         )
     }
 }

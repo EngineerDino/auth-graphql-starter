@@ -1,0 +1,72 @@
+.song-link {
+    color: black;
+}
+
+.song-link:hover {
+    color: purple;
+}
+
+.material-icons {
+ user-select: none;
+}
+
+.collection-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collection-item .material-icons {
+    cursor: pointer;
+    padding: 0 1rem 0 1rem;
+    color: black;
+}
+
+.collection-item .material-icons:hover {
+    color: #ff4081 ;
+}
+
+.button-box {
+    display: flex;
+}
+
+.like-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem 0 0;
+    user-select: none;
+}
+
+.like-box .material-icons {
+    transition: 100ms ease;
+}
+
+.like-box .material-icons:active {
+    transform: scale(0.7);
+}
+
+.lyric-button {
+    background: #f520ea;
+    border-color: #f520ea;
+}
+
+
+
+.back-link {
+    color: black;
+}
+
+
+body::-webkit-scrollbar {
+  width: 0.35rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: hsl(282, 32%, 20%);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: hsl(282, 32%, 47%);
+  border-radius: 10%;
+}
